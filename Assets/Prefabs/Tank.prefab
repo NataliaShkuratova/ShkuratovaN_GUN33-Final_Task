@@ -198,7 +198,7 @@ MonoBehaviour:
   _vertRotateSpeed: 0.07
   <FirePoint>k__BackingField: {fileID: 2694439098578208379}
   _controller: {fileID: 6526100036402445208}
-  <Velocity>k__BackingField: 35
+  <Velocity>k__BackingField: 100
   _reloadDelay: 1.5
   _emitSmokeCount: 3
   _firePower: 120000
@@ -722,7 +722,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 1, z: 8}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 526108490962359135}
@@ -858,8 +858,8 @@ MonoBehaviour:
   _downforce: 100
   _slipLimit: 0.3
   _reverseMult: 0.4
-  _maxSpeedFOV: 200
-  _fov: {x: 40, y: 90}
+  _maxSpeedFOV: 70
+  _fov: {x: 40, y: 40}
   _debugTorque: 0
 --- !u!82 &6623977352792057553
 AudioSource:
@@ -1094,8 +1094,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7385037491684498374}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.045248743, y: -0.015460254, z: 0.0007003591, w: 0.9988559}
-  m_LocalPosition: {x: 0.16, y: 1.1949998, z: -3.315}
+  m_LocalRotation: {x: 0.07684718, y: -0.028643817, z: 0.002208643, w: 0.99662894}
+  m_LocalPosition: {x: 0.32, y: 1.5899999, z: -3.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0.32, y: 2.39, z: -6.63}
+  m_FollowOffset: {x: 0.32, y: 1.59, z: -3.71}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
